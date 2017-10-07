@@ -30,7 +30,7 @@ public class Solution {
         l2.next = l3;
         l3.next = l4;
         l4.next = l5;
-      //  l5.next = l6;
+        l5.next = l6;
         ListNode l = new Solution().reverseBetween(l1, 2, 4);
     }
 }
