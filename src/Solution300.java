@@ -24,6 +24,7 @@ public class Solution300 {
         return res;
     }
 
+
     public static void main(String[] args) {
         int []a = {1,3,6,7,9,4,10,5,6};
         new Solution300().lengthOfLIS(a);
