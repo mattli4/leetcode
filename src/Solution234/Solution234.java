@@ -1,7 +1,8 @@
 package Solution234;
 
+import ds.ListNode;
 
-public class Solution {
+public class Solution234 {
     public boolean isPalindrome(ListNode head) {
         if(head == null) return true;
         if(head.next == null) return true;
@@ -30,7 +31,7 @@ public class Solution {
         ListNode l3 = new ListNode(1);
         l1.next = l2;
         l2.next = l3;
-        boolean f = new Solution().isPalindrome(l1);
+        boolean f = new Solution234().isPalindrome(l1);
         System.out.println(f);
     }
 }

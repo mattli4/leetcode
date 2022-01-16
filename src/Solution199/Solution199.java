@@ -3,8 +3,9 @@ package Solution199;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
+import ds.TreeNode;
 
-public class Solution {
+public class Solution199 {
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> list = new LinkedList<Integer>();
         if(root == null) return list;
@@ -39,7 +40,7 @@ public class Solution {
         n5.right = n3;
         n2.left = n4;
         n2.right = n5;
-        List<Integer> list = new Solution().rightSideView(n1);
+        List<Integer> list = new Solution199().rightSideView(n1);
         System.out.println(list);
     }
 }

@@ -1,6 +1,7 @@
 package Solution24;
 
-public class Solution {
+import ds.ListNode;
+public class Solution24 {
     public ListNode swapPairs(ListNode head) {
         if(head == null) return null;
         if(head.next == null) return head;
@@ -30,6 +31,6 @@ public class Solution {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        ListNode l = new Solution().swapPairs(l1);
+        ListNode l = new Solution24().swapPairs(l1);
     }
 }

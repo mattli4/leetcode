@@ -1,8 +1,9 @@
 package Solution19;
 
 import java.util.ArrayList;
+import ds.ListNode;
 
-public class Solution {
+public class Solution19 {
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null) return null;
         ArrayList<ListNode> list = new ArrayList<>();

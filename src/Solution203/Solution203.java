@@ -1,6 +1,8 @@
 package Solution203;
 
-public class Solution {
+import ds.ListNode;
+
+public class Solution203 {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) return null;
         ListNode p = new ListNode(0);
@@ -27,6 +29,6 @@ public class Solution {
         ListNode l3 = new ListNode(2);
         l1.next = l2;
         l2.next = l3;
-        ListNode l = new Solution().removeElements(l1, 2);
+        ListNode l = new Solution203().removeElements(l1, 2);
     }
 }

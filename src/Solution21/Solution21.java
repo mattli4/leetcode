@@ -1,6 +1,7 @@
 package Solution21;
 
-public class Solution {
+import ds.ListNode;
+public class Solution21 {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         ListNode h = new ListNode(0);
         ListNode p = h;
@@ -36,6 +37,6 @@ public class Solution {
             l1[i].next = l1[i+1];
             l2[i].next = l2[i+1];
         }
-        new Solution().mergeTwoLists(l1[0], l2[0]);
+        new Solution21().mergeTwoLists(l1[0], l2[0]);
     }
 }

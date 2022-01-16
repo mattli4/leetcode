@@ -1,6 +1,8 @@
 package Solution226;
 
-public class Solution {
+import ds.TreeNode;
+
+public class Solution226 {
     public TreeNode invertTree(TreeNode root) {
         TreeNode node = new TreeNode(0);
         node = root;
@@ -39,6 +41,6 @@ public class Solution {
         n5.right = n3;
         n2.left = n4;
         n2.right = n5;
-        TreeNode n = new Solution().invertTree(n1);
+        TreeNode n = new Solution226().invertTree(n1);
     }
 }

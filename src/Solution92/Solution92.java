@@ -1,6 +1,7 @@
 package Solution92;
 
-public class Solution {
+import ds.ListNode;
+public class Solution92 {
     public ListNode reverseBetween(ListNode head, int m, int n) {
         ListNode h = new ListNode(0);
         h.next = head;
@@ -31,6 +32,6 @@ public class Solution {
         l3.next = l4;
         l4.next = l5;
         l5.next = l6;
-        ListNode l = new Solution().reverseBetween(l1, 2, 4);
+        ListNode l = new Solution92().reverseBetween(l1, 2, 4);
     }
 }

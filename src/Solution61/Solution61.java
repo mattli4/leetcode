@@ -1,6 +1,6 @@
 package Solution61;
-
-public class Solution {
+import ds.ListNode;
+public class Solution61 {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null) return null;
         ListNode p = head;
@@ -31,6 +31,6 @@ public class Solution {
         l2.next = l3;
         l3.next = l4;
         l4.next = l5;
-        ListNode l = new Solution().rotateRight(l1, 7);
+        ListNode l = new Solution61().rotateRight(l1, 7);
     }
 }

@@ -1,6 +1,8 @@
 package Solution445;
 
-public class Solution {
+import ds.ListNode;
+
+public class Solution445 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if(l1 == null || l2 == null) return null;
         ListNode l1r = reverse(l1);
@@ -67,6 +69,6 @@ public class Solution {
         ListNode l6 = new ListNode(3);
         l4.next = l5;
         l5.next = l6;
-        ListNode l = new Solution().addTwoNumbers(l1, l4);
+        ListNode l = new Solution445().addTwoNumbers(l1, l4);
     }
 }

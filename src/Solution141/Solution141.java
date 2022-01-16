@@ -1,5 +1,5 @@
 package Solution141;
-
+import ds.ListNode;
 /*
 * if(head==null) return false;
     ListNode walker = head;
@@ -12,7 +12,7 @@ package Solution141;
     return false;
 * */
 
-public class Solution {
+public class Solution141 {
     public boolean hasCycle(ListNode head) {
         if(head == null) return false;
         ListNode cur = head;
@@ -32,7 +32,7 @@ public class Solution {
         l1.next = l2;
         l2.next = l3;
         l3.next = l2;
-        boolean l = new Solution().hasCycle(l1);
+        boolean l = new Solution141().hasCycle(l1);
         System.out.println(l);
     }
 }

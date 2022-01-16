@@ -1,6 +1,7 @@
 package Solution83;
 
-public class Solution {
+import ds.ListNode;
+public class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null) return null;
         if(head.next == null) return head;

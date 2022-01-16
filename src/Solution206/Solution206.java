@@ -1,6 +1,8 @@
 package Solution206;
 
-public class Solution {
+import ds.ListNode;
+
+public class Solution206 {
     public ListNode reverseList(ListNode head) {
         if(head == null) return null;
         ListNode p = head;
@@ -20,6 +22,6 @@ public class Solution {
         ListNode l3 = new ListNode(2);
         l1.next = l2;
         l2.next = l3;
-        ListNode l = new Solution().reverseList(l1);
+        ListNode l = new Solution206().reverseList(l1);
     }
 }
