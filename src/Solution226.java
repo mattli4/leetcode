@@ -1,5 +1,3 @@
-package Solution226;
-
 import ds.TreeNode;
 
 public class Solution226 {

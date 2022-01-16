@@ -1,4 +1,3 @@
-package Solution61;
 import ds.ListNode;
 public class Solution61 {
     public ListNode rotateRight(ListNode head, int k) {

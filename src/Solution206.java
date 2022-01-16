@@ -1,5 +1,3 @@
-package Solution206;
-
 import ds.ListNode;
 
 public class Solution206 {

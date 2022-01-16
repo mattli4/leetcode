@@ -1,5 +1,3 @@
-package Solution234;
-
 import ds.ListNode;
 
 public class Solution234 {

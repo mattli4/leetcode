@@ -1,5 +1,3 @@
-package Solution83;
-
 import ds.ListNode;
 public class Solution83 {
     public ListNode deleteDuplicates(ListNode head) {

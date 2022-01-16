@@ -1,5 +1,3 @@
-package Solution24;
-
 import ds.ListNode;
 public class Solution24 {
     public ListNode swapPairs(ListNode head) {

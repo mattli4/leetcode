@@ -1,5 +1,3 @@
-package Solution92;
-
 import ds.ListNode;
 public class Solution92 {
     public ListNode reverseBetween(ListNode head, int m, int n) {

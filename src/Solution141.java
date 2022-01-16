@@ -1,4 +1,3 @@
-package Solution141;
 import ds.ListNode;
 /*
 * if(head==null) return false;

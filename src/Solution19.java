@@ -1,5 +1,3 @@
-package Solution19;
-
 import java.util.ArrayList;
 import ds.ListNode;
 
